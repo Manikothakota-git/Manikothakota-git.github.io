@@ -1,59 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Travel Blog</title>
 </head>
-
 <body>
-
-    <!-- Navigation Bar -->
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Header Section -->
     <header>
-        <h1>Welcome to My Travel Blog</h1>
-        <p>Documenting my travel experiences, sharing tips, and showcasing photos.</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Blog Section -->
-    <section id="blog">
-        <h2>Latest Blog Posts</h2>
-
-        <!-- Blog Post 1 -->
-        <article>
-            <img src="images/destination1.jpg" alt="Destination 1">
-            <h3>Exploring Beautiful Destination 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-            <a href="#">Read More</a>
-        </article>
-
-        <!-- Blog Post 2 -->
-        <article>
-            <img src="images/destination2.jpg" alt="Destination 2">
-            <h3>A Day in the Life at Destination 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...</p>
-            <a href="#">Read More</a>
-        </article>
-
-        <!-- Add more blog posts as needed -->
-
+    <section id="home" class="hero">
+        <h1>Welcome to My Travel Blog</h1>
+        <p>Documenting my adventures around the world.</p>
     </section>
 
-    <!-- Contact Section -->
+    <section id="blog">
+        <article>
+            <h2>Exploring [Destination]</h2>
+            <img src="image1.jpg" alt="Destination Image">
+            <p>This is my experience in [Destination]. It was an amazing journey...</p>
+            <button>Read More</button>
+        </article>
+
+        <article>
+            <h2>Discovering [Another Destination]</h2>
+            <img src="image2.jpg" alt="Another Destination Image">
+            <p>During my trip to [Another Destination], I learned so much...</p>
+            <button>Read More</button>
+        </article>
+        <!-- Add more articles for different blog posts -->
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm [Your Name]. I'm passionate about traveling and exploring new cultures...</p>
+    </section>
+
     <section id="contact">
         <h2>Contact Me</h2>
-        <form action="contact.php" method="post">
+        <form>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -67,11 +61,8 @@
         </form>
     </section>
 
-    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2023 My Travel Blog</p>
+        <p>&copy; 2023 My Travel Blog. All rights reserved.</p>
     </footer>
-
 </body>
-
 </html>
